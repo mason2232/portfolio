@@ -63,9 +63,15 @@ section {
 
 
 @media only screen and (max-width: 768px) {
-	/* Add your code here */
-}
+body 
+.about-me{float:none;}
+.content-wrapper{background-color: blue;}
+ 
+ }
 
 @media only screen and (max-width: 640px) {
-	/* Add your code here */
+
+	p{display: inline-table;}
+	.content-wrapper{background-color: green;}
+	.about-me{float:none;}
 }
